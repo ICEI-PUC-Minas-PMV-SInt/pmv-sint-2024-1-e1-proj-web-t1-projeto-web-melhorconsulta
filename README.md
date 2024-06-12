@@ -1,25 +1,24 @@
-# Título do Projeto
+# Melhor Consulta
 
-`CURSO`
+`Sistemas para Internet`
 
-`DISCIPLINA`
+`Projeto: Aplicações Web`
 
-`SEMESTRE`
+`1º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O texto aborda a questão do acesso aos serviços de saúde no Brasil, destacando as deficiências do Sistema Único de Saúde (SUS), como longas filas de espera, escassez de profissionais e infraestrutura precária. Além disso, ressalta a desigualdade de acesso, onde aqueles com recursos financeiros ou posições privilegiadas têm vantagens. Diante desse contexto, propõe um projeto que visa facilitar a busca por atendimento na área da saúde, especialmente na rede privada, onde a falta de informações atualizadas e a dificuldade de agendamento são comuns. O objetivo é tornar mais fácil e eficiente o acesso a profissionais da saúde, buscando reduzir as disparidades existentes no sistema de saúde.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
+* Aline Maria Fidelis
+* Geovana Bárbara Miranda
 * Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Thiago Gonçalves Ribeiro
+
 
 ## Orientador
 
-* Nome completo do professor
+* Claudio Faria
 
 # Documentação
 
