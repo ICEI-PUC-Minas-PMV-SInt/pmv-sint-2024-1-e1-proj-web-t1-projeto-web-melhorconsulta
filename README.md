@@ -12,7 +12,7 @@ O texto aborda a questão do acesso aos serviços de saúde no Brasil, destacand
 
 * Aline Maria Fidelis
 * Geovana Bárbara Miranda
-* Nome completo do aluno 3
+* Rian Silva Godoy
 * Thiago Gonçalves Ribeiro
 
 
