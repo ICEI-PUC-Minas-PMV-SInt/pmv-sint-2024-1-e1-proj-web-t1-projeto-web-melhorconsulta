@@ -36,7 +36,7 @@ O texto aborda a questão do acesso aos serviços de saúde no Brasil, destacand
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* https://icei-puc-minas-pmv-sint.github.io/pmv-sint-2024-1-e1-proj-web-t1-projeto-web-melhorconsulta/src/homepage.html 
 
 # Código-Fonte
 
