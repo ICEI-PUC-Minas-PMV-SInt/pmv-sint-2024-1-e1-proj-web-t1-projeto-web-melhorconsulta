@@ -3,17 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MelhorConsulta</title>
+    <title>Consulta</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="popups.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@21,300,1,0" />
-      <!-- visualizar senha-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@21,300,1,0" />
+</head>
 <body>
     <header class="frame header">
         <p onclick="homepage()" class="logo">Melhor<br>Consulta</p>
+        <div class="procura2 lado">
+            <form>
+                <input  id="campo-pesquisa" list="especialidades" type="text" placeholder="Digite a especialidade" class="campo_procura campo_procura2">
+                <datalist id="especialidades">
+                    <option value="Acupunturista"></option>
+                    <option value="Alergista"></option>
+                    <option value="Anestesiologista"></option>
+                    <option value="Angiologista"></option>
+                        <option value="Oncologista"></option>
+                    <option value="Cardiologista"></option>
+                    <option value="Cirurgião buco-maxilo-facil"></option>
+                    <option value="Cirurgião cardiovascular"></option>
+                    <option value="Cirurgião cranio-maxilo-facil"></option>
+                    <option value="Cirurgião da mão"></option>
+                    <option value="Cirurgião de cabeça e pescoço"></option>
+                    <option value="Cirurgião do aparelho digestivo"></option>
+                    <option value="Cirurgião geral"></option>
+                    <option value="Cirurgião oncológico"></option>
+                    <option value="Cirurgião pediátrico"></option>
+                    <option value="Cirurgião torácico"></option>
+                    <option value="Cirurgião vascular"></option>
+                    <option value="Clínico geral"></option>
+                    <option value="Coloproctologista"></option>
+                    <option value="Especialista em dor"></option>
+                    <option value="Dermatologista"></option>
+                    <option value="Endocrinologista"></option>
+                    <option value="Endocrinologista pediátrico"></option>
+                    <option value="Endoscopista"></option>
+                    <option value="Fisioterapeuta"></option>
+                    <option value="Fonoaudiólogo"></option>
+                    <option value="Gastroenterologista"></option>
+                    <option value="Generalista"></option>
+                    <option value="Geneticista"></option>
+                    <option value="Geriatria"></option>
+                    <option value="Ginecologista"></option>
+                    <option value="Hematologista"></option>
+                    <option value="Homeopata"></option>
+                    <option value="Infectologista"></option>
+                    <option value="Infectologista pediátrico"></option>
+                    <option value="Mastologista"></option>
+                    <option value="Médico da família"></option>
+                    <option value="Médico de tráfego"></option>
+                    <option value="Médico de emergência"></option>
+                    <option value="Médico do sono"></option>
+                    <option value="Médico do trabalho"></option>
+                    <option value="Medicina estética"></option>
+                    <option value="Medicina física e reabilitação"></option>
+                    <option value="Médico hiperbarista"></option>
+                        <option value="Intensivista"></option>
+                        <option value="Internista"></option>
+                    <option value="Médico perito"></option>
+                    <option value="Medicina preventiva"></option>
+                    <option value="Nefrologista"></option>
+                    <option value="Nefrologista pediátrico"></option>
+                    <option value="Neurocirurgião"></option>
+                    <option value="Neurofisiologista"></option>
+                    <option value="Neurologista"></option>
+                    <option value="Neurologista pediátrico"></option>
+                    <option value="Nutricionista"></option>
+                    <option value="Nutrólogo"></option>
+                        <option value="Dentista"></option>
+                    <option value="Oftalmologista"></option>
+                    <option value="Ortopedista - Traumatologista"></option>
+                    <option value="Osteopata"></option>
+                    <option value="Otorrino"></option>
+                    <option value="Pediatria"></option>
+                    <option value="Pneumologista"></option>
+                    <option value="Pneumologista pediátrico"></option>
+                    <option value="Podologista"></option>
+                    <option value="Psicanalista"></option>
+                    <option value="Psicólogo"></option>
+                    <option value="Psiquiatria"></option>
+                    <option value="Quitopraxista"></option>
+                    <option value="Radiologista"></option>
+                    <option value="Reumatologista"></option>
+                    <option value="Reumatologista pediátrico"></option>
+                    <option value="Sexólogo"></option>
+                    <option value="Terapeuta ocupacional"></option>
+                    <option value="Terapeuta complementar"></option>
+                    <option value="Urologista"></option>
+                    <option value="Cardiologista pediátrico"></option>
+                    <option value="Hepatologista"></option>
+                    <option value="Gastroentologista pediátrico"></option>
+                    <option value="Ortodontista"></option>
+                    <option value="Educador físico"></option>
+                    </datalist>
+
+            </form>
+            <span onclick="botaoPesquisa()" class="material-symbols-outlined op30">search</span>
+        </div>
         <nav>
             <ul class="buttons">
                 <li onclick="popup_login()" class="button_out">Entrar</li>
@@ -21,223 +109,144 @@
             </ul>
         </nav>  
     </header>
-    <div class="frame inicial">
-        <div class="inicial_1">
-            <h1>Bem Vindo</h1>
-            <p class="medio">Marcar uma consulta agora ficou mais fácil do que nunca!<br>No Melhor Consulta simplifique sua experiência na busca por cuidados de saúde de alta qualidade.</p>
-        </div>
-        <img src="assets/div1.jpg" class="imagem">
-    </div>  
-    <main class="gap_vert">
-        <div class="procura">
-            <p class="medio">Consulte aqui:</p>
-            <div class="tamanho-campo">
-                <div class="div1">
-                    <forms>
-                        <input id="campo-pesquisa" list="especialidades" type="text" placeholder="Digite a especialidade" class="campo_procura">
-                        <datalist id="especialidades">
-                        <option value="Acupunturista"></option>
-                        <option value="Alergista"></option>
-                        <option value="Anestesiologista"></option>
-                        <option value="Angiologista"></option>
-                            <option value="Oncologista"></option>
-                        <option value="Cardiologista"></option>
-                        <option value="Cirurgião buco-maxilo-facil"></option>
-                        <option value="Cirurgião cardiovascular"></option>
-                        <option value="Cirurgião cranio-maxilo-facil"></option>
-                        <option value="Cirurgião da mão"></option>
-                        <option value="Cirurgião de cabeça e pescoço"></option>
-                        <option value="Cirurgião do aparelho digestivo"></option>
-                        <option value="Cirurgião geral"></option>
-                        <option value="Cirurgião oncológico"></option>
-                        <option value="Cirurgião pediátrico"></option>
-                        <option value="Cirurgião torácico"></option>
-                        <option value="Cirurgião vascular"></option>
-                        <option value="Clínico geral"></option>
-                        <option value="Coloproctologista"></option>
-                        <option value="Especialista em dor"></option>
-                        <option value="Dermatologista"></option>
-                        <option value="Endocrinologista"></option>
-                        <option value="Endocrinologista pediátrico"></option>
-                        <option value="Endoscopista"></option>
-                        <option value="Fisioterapeuta"></option>
-                        <option value="Fonoaudiólogo"></option>
-                        <option value="Gastroenterologista"></option>
-                        <option value="Generalista"></option>
-                        <option value="Geneticista"></option>
-                        <option value="Geriatria"></option>
-                        <option value="Ginecologista"></option>
-                        <option value="Hematologista"></option>
-                        <option value="Homeopata"></option>
-                        <option value="Infectologista"></option>
-                        <option value="Infectologista pediátrico"></option>
-                        <option value="Mastologista"></option>
-                        <option value="Médico da família"></option>
-                        <option value="Médico de tráfego"></option>
-                        <option value="Médico de emergência"></option>
-                        <option value="Médico do sono"></option>
-                        <option value="Médico do trabalho"></option>
-                        <option value="Medicina estética"></option>
-                        <option value="Medicina física e reabilitação"></option>
-                        <option value="Médico hiperbarista"></option>
-                            <option value="Intensivista"></option>
-                            <option value="Internista"></option>
-                        <option value="Médico perito"></option>
-                        <option value="Medicina preventiva"></option>
-                        <option value="Nefrologista"></option>
-                        <option value="Nefrologista pediátrico"></option>
-                        <option value="Neurocirurgião"></option>
-                        <option value="Neurofisiologista"></option>
-                        <option value="Neurologista"></option>
-                        <option value="Neurologista pediátrico"></option>
-                        <option value="Nutricionista"></option>
-                        <option value="Nutrólogo"></option>
-                            <option value="Dentista"></option>
-                        <option value="Oftalmologista"></option>
-                        <option value="Ortopedista - Traumatologista"></option>
-                        <option value="Osteopata"></option>
-                        <option value="Otorrino"></option>
-                        <option value="Pediatria"></option>
-                        <option value="Pneumologista"></option>
-                        <option value="Pneumologista pediátrico"></option>
-                        <option value="Podologista"></option>
-                        <option value="Psicanalista"></option>
-                        <option value="Psicólogo"></option>
-                        <option value="Psiquiatria"></option>
-                        <option value="Quitopraxista"></option>
-                        <option value="Radiologista"></option>
-                        <option value="Reumatologista"></option>
-                        <option value="Reumatologista pediátrico"></option>
-                        <option value="Sexólogo"></option>
-                        <option value="Terapeuta ocupacional"></option>
-                        <option value="Terapeuta complementar"></option>
-                        <option value="Urologista"></option>
-                        <option value="Cardiologista pediátrico"></option>
-                        <option value="Hepatologista"></option>
-                        <option value="Gastroentologista pediátrico"></option>
-                        <option value="Ortodontista"></option>
-                        <option value="Educador físico"></option>
-                        </datalist>
-                    </forms>
-                </div>
-                <div onclick="botaoPesquisa()" id="botao-pesquisa" class="div2"><span class="material-symbols-outlined simbolo">search</span></div>
+    <main class="main_consulta">
+        <section class="frame medico medico_consulta tam0">
+            <div class="medico_div1 medico_div1_consulta">
+                <img src="assets/med1.jpg" class="med_img">
+                <h2 class="medio">Dr. Lucas Oliveira</h2>
+                <h3 class="light">Ortopedista</h3>
             </div>
-            <p class="light lado"><span class="material-symbols-outlined">location_on</span>Belo Horizonte - MG</p>
-        </div>
-        <div class="gap_vert">
-            <p class="medio">Consultas perto de você</p>
-            <div class="carrossel">
-                <div class="frame consulta tam1"> 
-                    <p>Consulta de rotina</p>
-                    <p class="light">Consulta geral para check-up de saúde, avaliação de sintomas comuns e orientações preventivas.</p>
-                    <p>A partir de R$150,00</p>
-                    <div class="lado">
-                        <p class="lado">4,8 <span class="material-symbols-outlined">star_half</span></p>
-                        <button class="button_in info pequeno">Mais informações</button>
-                    </div>
-                </div>
-                <div class="frame consulta tam1">
-                    <p>Consulta de ortopedia para lesão no joelho</p>
-                    <p class="light">Consulta especializada para diagnosticar e tratar uma lesão no joelho.</p>
-                    <p>A partir de R$140,00</p>
-                    <div class="lado">
-                        <p class="lado">4,7 <span class="material-symbols-outlined">star_half</span></p>
-                        <button class="button_in info pequeno">Mais informações</button>
-                    </div>
-                </div>
-                <div class="frame consulta tam1">
-                    <p>Consulta de ginecologia para exames preventivos</p>
-                    <p class="light">Consulta ginecológica para exames de rotina, prevenção de doenças e saúde reprodutiva.</p>
-                    <p>A partir de R$180,00</p>
-                    <div class="lado">
-                        <p class="lado">4,9 <span class="material-symbols-outlined">star_half</span></p>
-                        <button  class="button_in info pequeno">Mais informações</button>
-                    </div>
-                </div>
-                <div class="frame consulta tam1">
-                    <p>Consulta para avaliação de aaúde do coração</p>
-                    <p class="light">Consulta cardiológica para avaliação de saúde do coração, diagnóstico de condições cardíacas e...</p>
-                    <p>A partir de R$220,00</p>
-                    <div class="lado">
-                        <p class="lado">4,6 <span class="material-symbols-outlined">star_half</span></p>
-                        <button  class="button_in info pequeno">Mais informações</button>
-                    </div>
-                </div>
-                <div class="frame consulta tam1">
-                    <p>Consulta de pediatria para vacinação</p>
-                    <p class="light">Consulta pediátrica para vacinação, acompanham-ento do crescimento e desenvolvimento infantil.</p>
-                    <p>A partir de R$120,00</p>
-                    <div class="lado">
-                        <p class="lado">4,5 <span class="material-symbols-outlined">star_half</span></p>
-                        <button  class="button_in info pequeno">Mais informações</button>
-                    </div>
-                </div>
-                
+            <div class="divisa"></div>
+            <div class="medico_div2">
+                <ul class="light clean_list">
+                    <li class="center"><span class="material-symbols-outlined pequeno">location_on</span>Clínica do Esporte, Av. dos Atletas, nº 456</li>
+                    <li class="center"><span class="material-symbols-outlined smaller">mail</span>lucas.oli@clinicaesporte.com</li>
+                    <li class="center"><span class="material-symbols-outlined"> call </span>(21) 8765-4321</li>
+                </ul>
             </div>
-        </div>
+        </section>
+        <section class="frame tam2 detalhe_consulta">
+            <div class="detalhe_consulta1">
+                <div class="lado">
+                    <h2 class="medio lado gap_hori">Avaliação e tratamento de lesão no joelho <p class="lado">4,5 <span class="material-symbols-outlined"> star_half </span></p></h2>
+                    <span class="material-symbols-outlined">bookmark_add</span>
+                </div>
+                <p class=>Nesta consulta, o Dr. Lucas Oliveira diagnosticará e tratará sua lesão no joelho. Ele fará uma avaliação dos sintomas, um exame físico e, se necessário, solicitará exames de imagem. O tratamento pode incluir fisioterapia, medicamentos, injeções ou, em casos graves, cirurgia. O objetivo é aliviar a dor e restaurar a função do joelho.</p>
+                <p class="medio">R$140,00</p>
+                <form class="formulario_consulta lado">
+                    <div class="lado">
+                        <label for="paciente">Paciente:</label>
+                        <select id="paciente" class="input">
+                            <option>Consulta pessoal</option>
 
-        <div class="gap_vert">
-            <p class="medio">Profissionais perto de você</p>
-            <div class="carrossel">
-                <div class="frame consulta card_medico tam1">
-                    <img src="assets/perfil_med.jpg" class="img_card">
-                    <div class="central_vert">
-                        <p >Dra. Paula Rangel</p>
-                        <p class="light">Pediatra</p>
+                        </select>
                     </div>
-                    <div class="lado">
-                        <p class="lado">4,8 <span class="material-symbols-outlined">star_half</span></p>
-                        <p onclick="maisInformacoes1()" class="button_in info pequeno">Mais informações</p>
+                    <form action="" id="form1" class="">
+
+                        <div class="data-hora">
+                            <div class="">
+                                <label for="txtData">Data:
+                                <input type="date" id="txtData" class="input" name="data" min="2024-05-30" required>  
+                                </label>                      
+                            </div>
+                            <div>
+                                <label for="txtHora">Hora:
+                                    <select class="input"  id="txtHora">
+                                        <option value="">09:00</option>
+                                        <option value="">09:30</option>
+                                        <option value="">10:00</option>
+                                        <option value="">10:30</option>
+                                        <option value="">11:00</option>
+                                        <option value="">13:00</option>
+                                        <option value="">13:30</option>
+                                        <option value="">14:00</option>
+                                        <option value="">14:30</option>
+                                        <option value="">15:00</option>
+                                        <option value="">15:30</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div> 
+
+                    </form> 
+                    <div class="botao_lado">
+                        <button onclick="popup_login()" type="submit"class="button_in info">Marcar Consulta</button>
                     </div>
+                </form>
+            </div>
+            <div class=".detalhe_consulta2">
+                <img src="assets/clinica.jpg" class="imgclinica" alt="Foto da clínica">
+            </div>
+        </section>
+    </main>
+    <section class="avaliacao section">
+        <div class="lado">
+            <h2 class="medio lado">Avaliações</h2>
+            <select name="class" id="class" class="input">
+                <option>Mais recente</option>
+                <option>Mais antigo</option>
+                <option>Maior nota</option>
+                <option>Menor nota</option>
+            </select>
+        </div>
+        <div class="gap_vert_menor">
+            <div class="comentario frame">
+                <img src="assets/perfil.jpg" class="perfil_img">
+                <div class="comentario2">
+                    <h3>Ana Silva</h3>
+                    <p>Dr. Lucas foi extremamente atencioso e detalhista durante a consulta. Ele explicou cada passo do diagnóstico e me deixou muito seguro sobre o tratamento. Minha recuperação foi rápida e eficiente. Recomendo fortemente!</p>
                 </div>
-                <div class="frame consulta card_medico tam1">
-                    <img src="assets/perfil_med1.jpg" class="img_card">
-                    <div class="central_vert">
-                        <p >Dra. Laura Castro</p>
-                        <p class="light">Nutricionista</p>
-                    </div>
-                    <div class="lado">
-                        <p class="lado">4,7 <span class="material-symbols-outlined">star_half</span></p>
-                        <p class="button_in info pequeno">Mais informações</p>
-                    </div>
+                <div class="comentario3">
+                    <p class="central">5 <span class="material-symbols-outlined"> star_half </span></p>
+                    <p class="light pequeno">22/05/2024</p>
                 </div>
-                <div class="frame consulta card_medico tam1">
-                    <img src="assets/perfil_med2.jpg" class="img_card">
-                    <div class="central_vert">
-                        <p >Dr. Carlos Mendonça</p>
-                        <p class="light">Cardiologista</p>
-                    </div>
-                    <div class="lado">
-                        <p class="lado">4,3 <span class="material-symbols-outlined">star_half</span></p>
-                        <p class="button_in info pequeno">Mais informações</p>
-                    </div>
+            </div>
+            <div class="comentario frame">
+                <img src="assets/perfil.jpg" class="perfil_img">
+                <div class="comentario2">
+                    <h3>João Pereira</h3>
+                    <p>A consulta com o Dr. Lucas foi excelente. Ele diagnosticou minha lesão de forma precisa e o tratamento foi eficaz. Me senti muito bem cuidado durante todo o processo.</p>
                 </div>
-                <div class="frame consulta card_medico tam1">
-                    <img src="assets/perfil_med3.png" class="img_card">
-                    <div class="central_vert">
-                        <p >Lucas Wong</p>
-                        <p class="light">Fisioterapeuta</p>
-                    </div>
-                    <div class="lado">
-                        <p class="lado">4,9 <span class="material-symbols-outlined">star_half</span></p>
-                        <p class="button_in info pequeno">Mais informações</p>
-                    </div>
+                <div class="comentario3">
+                    <p class="central">5<span class="material-symbols-outlined"> star_half </span></p>
+                    <p class="light pequeno">10/04/2024</p>
                 </div>
-                <div class="frame consulta card_medico tam1">
-                    <img src="assets/perfil_med4.jpg" class="img_card">
-                    <div class="central_vert">
-                        <p >Dra. Julia Costa</p>
-                        <p class="light">Dentista</p>
-                    </div>
-                    <div class="lado">
-                        <p class="lado">4,2 <span class="material-symbols-outlined">star_half</span></p>
-                        <p class="button_in info pequeno">Mais informações</p>
-                    </div>
+            </div>
+            <div class="comentario frame">
+                <img src="assets/perfil.jpg" class="perfil_img">
+                <div class="comentario2">
+                    <h3>Maria Fernandes</h3>
+                    <p>Ótimo profissional! Dr. Lucas foi muito atencioso e paciente ao explicar cada detalhe do meu problema. O tratamento foi um sucesso e me sinto muito melhor agora.</p>
                 </div>
-                
+                <div class="comentario3">
+                    <p class="central">5<span class="material-symbols-outlined"> star_half </span></p>
+                    <p class="light pequeno">25/03/2024</p>
+                </div>
+            </div>
+            <div class="comentario frame">
+                <img src="assets/perfil.jpg" class="perfil_img">
+                <div class="comentario2">
+                    <h3>Pedro Santos</h3>
+                    <p>Dr. Lucas é um médico muito competente. Ele diagnosticou minha lesão corretamente e o tratamento foi eficaz. Só achei que a espera na clínica foi um pouco longa, mas o atendimento compensou.</p>
+                </div>
+                <div class="comentario3">
+                    <p class="central">4<span class="material-symbols-outlined"> star_half </span></p>
+                    <p class="light pequeno">18/02/2024</p>
+                </div>
+            </div>
+            <div class="comentario frame">
+                <img src="assets/perfil.jpg" class="perfil_img">
+                <div class="comentario2">
+                    <h3>Carolina Oliveira</h3>
+                    <p>A consulta com o Dr. Lucas foi excelente. Ele diagnosticou minha lesão de forma precisa e o tratamento foi eficaz. Me senti muito bem cuidado durante todo o processo.</p>
+                </div>
+                <div class="comentario3">
+                    <p class="central">4<span class="material-symbols-outlined"> star_half </span></p>
+                    <p class="light pequeno">12/01/2024</p>
+                </div>
             </div>
         </div>
-    </main>
+    </section>
     <footer>
         <div>
             <p class="logo_footer">Melhor<br>Consulta</p>
@@ -362,18 +371,19 @@
             </div>
         </dialog>
 
+
+
     <script src="cadastro.js"></script>
     <script src="login.js"></script>
     <script src="pesquisa.js"></script>
+
+
     <script>
-
         function homepage(){
-            window.location.href = 'homepage.html';
-        }
+        window.location.href = 'homepage.html';
 
-        function maisInformacoes1(){
-            window.location.href = 'perfil-profissional.html';
-        }
-    </script>
+    }
+</script>
+
 </body>
 </html>
